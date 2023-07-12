@@ -1,0 +1,55 @@
+.beshyfierContainer {
+    border: 2px solid #352F44;
+    border-radius: 10px;
+    width: 50rem;
+    padding: 3rem 4rem;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.beshyfierContainer h1 {
+    text-align: center;
+}
+
+.beshyfier {
+    padding: 1rem;
+    word-wrap: break-word;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.beshyfier input {
+    outline: none;
+    width: 40rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 2px solid #352F44;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.beshyfier h3 {
+    display: flex;
+    word-wrap: break-word;
+    max-width: 50rem;
+    overflow-x:hidden ;
+}
+
+.beshyfyAction {
+    display: flex;
+    gap: 1rem
+}
+
+.beshyfier button {
+    padding: 0.5rem 1rem;
+    background-color: #352F44;
+    font-size: 1.5rem;
+    border: 2px solid #DBD8E3;
+    border-radius: 5px;
+}
